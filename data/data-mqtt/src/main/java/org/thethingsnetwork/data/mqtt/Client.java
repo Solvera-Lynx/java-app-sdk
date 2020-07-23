@@ -116,6 +116,9 @@ public class Client extends AbstractClient {
         }
         connOpts.setUserName(_appId);
         connOpts.setPassword(_appAccessKey.toCharArray());
+        if (_connOpts.getUserName() != null) {
+            connOpts.setUserName(_connOpts.getUserName());
+        }
     }
 
     private String validateBroker(String _source) throws URISyntaxException {

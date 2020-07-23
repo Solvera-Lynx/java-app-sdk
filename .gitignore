@@ -27,3 +27,5 @@
 /samples/ttnmgmt/target/
 /samples/samples-management/target/
 /samples/samples-amqp/target/
+/.idea/
+*.iml
